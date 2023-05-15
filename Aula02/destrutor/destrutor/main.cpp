@@ -4,7 +4,7 @@ using namespace std;
 struct classeA {
     int *p;
     ~classeA(){
-        printf("Morreu!\n");
+        free(p);
     }
 };
 int main(){
