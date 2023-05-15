@@ -6,6 +6,7 @@ struct A `{
     A (){
         //Construtor,,,
         x = 0;
+        printf("Construiu um objeto\n");
         //Todo X com o OBJETO A vai inicializar com 0.
     }
 };
